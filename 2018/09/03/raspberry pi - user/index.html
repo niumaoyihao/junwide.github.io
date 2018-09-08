@@ -83,17 +83,17 @@
 
 
 
-<meta name="description" content="1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        return n* factorial(n-1)    before_time = time.clock() for i in range(1,10000):">
+<meta name="description" content="title: 树莓派使用 date: 2018-9-7 15:3824 categories: 课外 tags:   blog markdown   1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        retur">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/2018/09/03/raspberry pi - user/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        return n* factorial(n-1)    before_time = time.clock() for i in range(1,10000):">
+<meta property="og:description" content="title: 树莓派使用 date: 2018-9-7 15:3824 categories: 课外 tags:   blog markdown   1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        retur">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-04T15:28:04.501Z">
+<meta property="og:updated_time" content="2018-09-08T06:40:32.404Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
-<meta name="twitter:description" content="1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        return n* factorial(n-1)    before_time = time.clock() for i in range(1,10000):">
+<meta name="twitter:description" content="title: 树莓派使用 date: 2018-9-7 15:3824 categories: 课外 tags:   blog markdown   1.性能测试  代码如下 123456789101112131415#CPU-testimport timedef factorial(n):    if n == 0:        return 1    else:        retur">
 
 
 
@@ -303,7 +303,14 @@
       
 
       
-        <p>1.性能测试</p>
+        <hr>
+<p> title: 树莓派使用<br> date: 2018-9-7 15:3824<br> categories: 课外<br> tags: </p>
+<ul>
+<li>blog</li>
+<li>markdown</li>
+</ul>
+<hr>
+<p>1.性能测试</p>
 <p> 代码如下<br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#CPU-test</span><br><span class="line">import time</span><br><span class="line"></span><br><span class="line">def factorial(n):</span><br><span class="line">    if n == 0:</span><br><span class="line">        return 1</span><br><span class="line">    else:</span><br><span class="line">        return n* factorial(n-1)</span><br><span class="line">    </span><br><span class="line">before_time = time.clock() </span><br><span class="line">for i in range(1,10000):</span><br><span class="line">    factorial(200)</span><br><span class="line">after_time = time.clock()</span><br><span class="line"></span><br><span class="line">print(after_time - before_time)</span><br></pre></td></tr></table></figure></p>
 <p>##<br>2.更换树莓派名字<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/hosts</span><br><span class="line">//修改最后的名字</span><br><span class="line"></span><br><span class="line">sudo nano /etc/hostname </span><br><span class="line">//修改名字</span><br></pre></td></tr></table></figure></p>
 <p>##<br>3.命令行配置网络<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo nano /etc/network/interfaces</span><br></pre></td></tr></table></figure></p>
@@ -386,8 +393,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/09/03/dawu-001/" rel="next" title="">
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/2018/09/02/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -396,8 +403,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/09/07/001/" rel="prev" title="大学物理 下">
-                大学物理 下 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/09/07/001/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -475,7 +482,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -483,15 +490,6 @@
 
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">2</span>
-                  <span class="site-state-item-name">标签</span>
-                
-              </div>
             
 
           </nav>
